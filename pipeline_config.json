@@ -1,0 +1,10 @@
+
+{
+    "steps": {
+        "tokenization": {"enabled": true, "method": "word"},
+        "stopwords": {"enabled": true, "language": "english", "custom_words": []},
+        "stemming": {"enabled": false, "algorithm": "porter"},
+        "normalization": {"enabled": true, "lowercase": true, "remove_punct": true}
+    },
+    "input_encoding": "utf-8",
+    "output_format": "tokens"}

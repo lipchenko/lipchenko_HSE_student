@@ -1,0 +1,20 @@
+ {
+    "bert-base": {
+        "accuracy": 0.92,
+        "f1_score": 0.91,
+        "inference_time": 120,
+        "size_mb": 440
+    },
+    "distilbert": {
+        "accuracy": 0.89,
+        "f1_score": 0.88,
+        "inference_time": 65,
+        "size_mb": 250
+    },
+    "roberta-large": {
+        "accuracy": 0.94,
+        "f1_score": 0.93,
+        "inference_time": 210,
+        "size_mb": 1600
+    }
+}
